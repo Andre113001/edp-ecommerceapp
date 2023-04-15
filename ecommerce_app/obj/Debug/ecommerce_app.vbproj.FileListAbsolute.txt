@@ -1,8 +1,6 @@
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.vbproj.AssemblyReference.cache
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.vbproj.SuggestedBindingRedirects.cache
-C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.Login.resources
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.Resources.resources
-C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.Welcome.resources
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.vbproj.GenerateResource.cache
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.vbproj.CoreCompileInputs.cache
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\ecommerce_app.exe.config
@@ -19,7 +17,6 @@ C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ec
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\System.Memory.dll
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\ZstdNet.dll
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\BouncyCastle.Crypto.xml
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\Google.Protobuf.pdb
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\Google.Protobuf.xml
@@ -35,4 +32,9 @@ C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ec
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.exe
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.xml
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.pdb
-C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.Register.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmLogin.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmRegister.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmWelcome.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmDataLoading.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\MySqlBackup.dll
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmAdmin.resources
