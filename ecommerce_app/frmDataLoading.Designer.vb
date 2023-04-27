@@ -33,9 +33,15 @@ Partial Class frmDataLoading
         '
         'dgViewItem
         '
+        Me.dgViewItem.AllowUserToAddRows = False
+        Me.dgViewItem.AllowUserToDeleteRows = False
+        Me.dgViewItem.AllowUserToResizeColumns = False
+        Me.dgViewItem.AllowUserToResizeRows = False
         Me.dgViewItem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgViewItem.Enabled = False
         Me.dgViewItem.Location = New System.Drawing.Point(12, 102)
         Me.dgViewItem.Name = "dgViewItem"
+        Me.dgViewItem.ReadOnly = True
         Me.dgViewItem.Size = New System.Drawing.Size(651, 266)
         Me.dgViewItem.TabIndex = 0
         '

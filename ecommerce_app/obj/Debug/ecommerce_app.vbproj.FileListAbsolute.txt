@@ -38,3 +38,7 @@ C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ec
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmDataLoading.resources
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\bin\Debug\MySqlBackup.dll
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmAdmin.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmTopSelling.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.vbproj.ResolveComReference.cache
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmSalesByCategory.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmCustomerOrders.resources

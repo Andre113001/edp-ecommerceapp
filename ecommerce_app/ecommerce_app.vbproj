@@ -111,6 +111,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin_functions.vb" />
+    <Compile Include="frmCustomerOrders.Designer.vb">
+      <DependentUpon>frmCustomerOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesByCategory.Designer.vb">
+      <DependentUpon>frmSalesByCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalesByCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAdmin.Designer.vb">
       <DependentUpon>frmAdmin.vb</DependentUpon>
     </Compile>
@@ -134,6 +147,12 @@
     </Compile>
     <Compile Include="frmLogin.Designer.vb">
       <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTopSelling.Designer.vb">
+      <DependentUpon>frmTopSelling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTopSelling.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmWelcome.Designer.vb">
@@ -164,11 +183,20 @@
     <EmbeddedResource Include="frmAdmin.resx">
       <DependentUpon>frmAdmin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerOrders.resx">
+      <DependentUpon>frmCustomerOrders.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDataLoading.resx">
       <DependentUpon>frmDataLoading.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesByCategory.resx">
+      <DependentUpon>frmSalesByCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopSelling.resx">
+      <DependentUpon>frmTopSelling.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -195,6 +223,35 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

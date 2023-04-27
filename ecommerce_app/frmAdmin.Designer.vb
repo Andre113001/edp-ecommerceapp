@@ -79,7 +79,7 @@ Partial Class frmAdmin
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.ControlLight
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(139, 330)
+        Me.Button4.Location = New System.Drawing.Point(138, 330)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(228, 65)
         Me.Button4.TabIndex = 4
