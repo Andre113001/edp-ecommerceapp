@@ -42,3 +42,4 @@ C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ec
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.vbproj.ResolveComReference.cache
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmSalesByCategory.resources
 C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmCustomerOrders.resources
+C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\ecommerce_app\obj\Debug\ecommerce_app.frmAddItem.resources

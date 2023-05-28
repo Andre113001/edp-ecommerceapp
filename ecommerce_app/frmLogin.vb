@@ -12,30 +12,16 @@ Public Class frmLogin
     End Sub
 
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles BtnLogin.Click
-        Try
-            cmd = New MySqlCommand("SELECT * FROM users WHERE Email=@Email AND Password=@Password", conn)
-            cmd.Parameters.AddWithValue("Email", TextBox1.Text.Trim)
-            cmd.Parameters.AddWithValue("Password", TextBox2.Text.Trim)
-            cmd.ExecuteNonQuery()
-            reader = cmd.ExecuteReader
-
-            If reader.Read Then
-                frmWelcome.Show()
-                Me.Hide()
-                conn.Close()
-            Else
-                MsgBox("Incorrect Email or Password")
-                conn.Close()
-            End If
-        Catch ex As Exception
-            MsgBox(ex.ToString)
-            conn.Close()
-        End Try
-
-
+        login_user(email:=TextBox1.Text, password:=TextBox2.Text)
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+    Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.CenterToScreen()
+        TextBox1.Clear()
+        TextBox2.Clear()
+    End Sub
+
+    Private Sub linkRegister_LinkClicked_1(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkRegister.LinkClicked
         frmRegister.Show()
         Me.Hide()
     End Sub

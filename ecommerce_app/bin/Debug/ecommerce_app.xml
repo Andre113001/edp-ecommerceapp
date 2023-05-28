@@ -22,5 +22,30 @@ ecommerce_app
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:ecommerce_app.My.Resources.Resources.icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ecommerce_app.My.Resources.Resources.Shopaholics___Online_Purchase">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ecommerce_app.My.Resources.Resources.Shopaholics___Shopping_Online">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ecommerce_app.My.Resources.Resources.Shopaholics___Virtual_Apparel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ecommerce_app.My.Resources.Resources.shopping_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

@@ -25,26 +25,22 @@ Partial Class frmWelcome
         Me.lbUsername = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnAdd = New System.Windows.Forms.Button()
+        Me.btnSub = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage3.SuspendLayout()
-        Me.TabControl1.SuspendLayout()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.dgProducts = New System.Windows.Forms.DataGridView()
+        Me.lblQuantity = New System.Windows.Forms.Label()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgProducts, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lbUsername
         '
         Me.lbUsername.AutoSize = True
         Me.lbUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbUsername.Location = New System.Drawing.Point(12, 45)
+        Me.lbUsername.Location = New System.Drawing.Point(141, 56)
         Me.lbUsername.Name = "lbUsername"
         Me.lbUsername.Size = New System.Drawing.Size(172, 37)
         Me.lbUsername.TabIndex = 1
@@ -52,152 +48,128 @@ Partial Class frmWelcome
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.LightCoral
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(619, 349)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(619, 219)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(153, 65)
+        Me.Button1.Size = New System.Drawing.Size(153, 195)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Add to Cart"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Text = "Add to Order"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(632, 276)
+        Me.Label2.Location = New System.Drawing.Point(631, 121)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(108, 29)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Quantity"
         '
-        'Button2
+        'btnAdd
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(717, 308)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(37, 34)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "+"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnAdd.BackColor = System.Drawing.Color.Silver
+        Me.btnAdd.FlatAppearance.BorderSize = 0
+        Me.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAdd.Location = New System.Drawing.Point(723, 165)
+        Me.btnAdd.Name = "btnAdd"
+        Me.btnAdd.Size = New System.Drawing.Size(37, 34)
+        Me.btnAdd.TabIndex = 4
+        Me.btnAdd.Text = "+"
+        Me.btnAdd.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btnSub
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(636, 309)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(37, 34)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "-"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Location = New System.Drawing.Point(611, 99)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(161, 174)
-        Me.GroupBox2.TabIndex = 5
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Product Details"
+        Me.btnSub.BackColor = System.Drawing.Color.DarkGray
+        Me.btnSub.FlatAppearance.BorderSize = 0
+        Me.btnSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSub.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSub.Location = New System.Drawing.Point(642, 166)
+        Me.btnSub.Name = "btnSub"
+        Me.btnSub.Size = New System.Drawing.Size(37, 34)
+        Me.btnSub.TabIndex = 4
+        Me.btnSub.Text = "-"
+        Me.btnSub.UseVisualStyleBackColor = False
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(697, 59)
+        Me.Button4.BackColor = System.Drawing.Color.IndianRed
+        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Transparent
+        Me.Button4.Location = New System.Drawing.Point(668, 36)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(104, 46)
         Me.Button4.TabIndex = 6
         Me.Button4.Text = "Logout"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.UseVisualStyleBackColor = False
         '
-        'Label3
+        'PictureBox1
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(19, 21)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 24)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "CartMe"
+        Me.PictureBox1.BackgroundImage = Global.ecommerce_app.My.Resources.Resources.icon
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Location = New System.Drawing.Point(23, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(112, 81)
+        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabStop = False
         '
-        'Label4
+        'Label1
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(679, 309)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(32, 33)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "0"
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.IndianRed
+        Me.Label1.Location = New System.Drawing.Point(144, 36)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(67, 20)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "CartMe"
         '
-        'TabPage3
+        'dgProducts
         '
-        Me.TabPage3.Controls.Add(Me.GroupBox3)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(555, 293)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Orders"
-        Me.TabPage3.UseVisualStyleBackColor = True
+        Me.dgProducts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.dgProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgProducts.Location = New System.Drawing.Point(23, 121)
+        Me.dgProducts.Name = "dgProducts"
+        Me.dgProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgProducts.Size = New System.Drawing.Size(564, 293)
+        Me.dgProducts.TabIndex = 0
         '
-        'GroupBox3
+        'lblQuantity
         '
-        Me.GroupBox3.Location = New System.Drawing.Point(17, 27)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(520, 229)
-        Me.GroupBox3.TabIndex = 1
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Ordered Items"
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(555, 293)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Cart"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'TabPage1
-        '
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(555, 293)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Products"
-        Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'TabControl1
-        '
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Controls.Add(Me.TabPage3)
-        Me.TabControl1.Location = New System.Drawing.Point(19, 99)
-        Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(563, 319)
-        Me.TabControl1.TabIndex = 8
+        Me.lblQuantity.AutoSize = True
+        Me.lblQuantity.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblQuantity.Location = New System.Drawing.Point(685, 166)
+        Me.lblQuantity.Name = "lblQuantity"
+        Me.lblQuantity.Size = New System.Drawing.Size(32, 33)
+        Me.lblQuantity.TabIndex = 3
+        Me.lblQuantity.Text = "0"
         '
         'frmWelcome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Snow
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.dgProducts)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.btnSub)
+        Me.Controls.Add(Me.btnAdd)
+        Me.Controls.Add(Me.lblQuantity)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lbUsername)
         Me.Name = "frmWelcome"
         Me.Text = "Welcome"
-        Me.TabPage3.ResumeLayout(False)
-        Me.TabControl1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgProducts, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -205,15 +177,11 @@ Partial Class frmWelcome
     Friend WithEvents lbUsername As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents btnAdd As Button
+    Friend WithEvents btnSub As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents TabPage3 As TabPage
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents TabPage2 As TabPage
-    Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents dgProducts As DataGridView
+    Friend WithEvents lblQuantity As Label
 End Class

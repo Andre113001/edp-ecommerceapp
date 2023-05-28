@@ -20,5 +20,4 @@ Public Class frmTopSelling
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         export_excel(dgName:=dgTopSelling, directory:="C:\Users\1130m\Documents\School Works\BSIT 3B - 2nd Semester\IT 120 - EDP\Try\ecommerce_app\export\Templates\Top Selling Template.xlsx", type:="Top Selling")
     End Sub
-
 End Class
